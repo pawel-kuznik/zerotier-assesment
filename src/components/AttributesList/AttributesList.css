@@ -1,0 +1,18 @@
+.attributeslist
+{
+    display: grid;
+    grid-template-columns: auto 1fr;
+}
+
+.attributelistrow
+{
+    display: contents;
+}
+
+.attributelistrow-label
+{
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(102, 102, 102);
+
+    padding-right: 2rem;
+}
