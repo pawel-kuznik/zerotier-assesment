@@ -8,6 +8,9 @@ export interface NetworkMetaProps {
     network: APINetwork;
 };
 
+/**
+ *  Show network information.
+ */
 export function NetworkMeta({ network }: NetworkMetaProps) {
     return (
         <ItemBox title="Network">

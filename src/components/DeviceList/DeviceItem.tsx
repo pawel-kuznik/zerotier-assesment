@@ -10,6 +10,9 @@ export interface DeviceItemProps {
     device: APIMember;
 };
 
+/**
+ *  A component respresenting a network device.
+ */
 export function DeviceItem({ device }: DeviceItemProps) {
 
     return (

@@ -73,3 +73,6 @@ Especially in developing countries (or Japan) where adoption of English language
 
 - A really cool thing to do, would be to make a visual map of networks and devices drawn with SVG or Canvas. However,
 this would more of a gimmick than actual configuration or information page.
+
+- Access token should be provided via ENV. I was a little bit lazy and didn't do it, but it would make more secure
+and make it easier to wrap in a Docker container.

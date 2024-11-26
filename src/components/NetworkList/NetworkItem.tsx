@@ -1,10 +1,8 @@
 import { APINetwork } from "../../utils";
 import { DeviceList } from "../DeviceList";
-import "./NetworkItem.css";
 import { NetworkMeta } from "./NetworkMeta";
 
 export interface NetworkItemProps {
-
     network: APINetwork;
 };
 

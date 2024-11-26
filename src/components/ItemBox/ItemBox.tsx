@@ -5,6 +5,9 @@ export interface ItemBoxProps extends PropsWithChildren {
     title?: string;
 };
 
+/**
+ *  Just a stilized box. Used in lists.
+ */
 export function ItemBox({ title, children }: ItemBoxProps) {
     return (
         <div className="itembox">
